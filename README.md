@@ -1,7 +1,24 @@
 # NTP
 Buscar a Hora via Protocolo NTP (JAVA)
 
-Inserção de servidores da América do Sul, sugestão de padronização de código, sugestão de acesso a host por laço for ao invés de while e inserção de funcionalidade de formatação do retorno Date para String.
+Uso simples de data atual via NTP.
+Independente de data atual da maquina ou banco de dados.
+Copie para o seu projeto a classe "NTP.java"
+
+# Bibliotecas
+Necessario a biblioteca: Commons net
+
+Copie o jar "commons-net-3.6.jar" da pasta "lib" para seu projeto ou adicione no seu POM.xml:
+
+```xml
+<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+<dependency>
+ <groupId>commons-net</groupId>
+ <artifactId>commons-net</artifactId>
+ <version>3.6</version>
+</dependency>
+```
+
 
 Exemplo de consumo:
 ```Java
